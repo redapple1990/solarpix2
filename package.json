@@ -1,0 +1,52 @@
+{
+  "name": "solarpix2",
+  "version": "2.4.12",
+  "private": true,
+  "homepage": "https://binaryfour.github.io/solarpix/#/",
+  "dependencies": {
+    "@redux-offline/redux-offline": "^2.5.2",
+    "axios": "^0.19.0",
+    "axios-retry": "^3.1.2",
+    "colormap": "^2.3.1",
+    "dexie": "^2.0.4",
+    "dexie-observable": "^1.0.0-beta.5",
+    "gh-pages": "^2.1.1",
+    "local-storage": "^1.4.2",
+    "lodash": "^4.17.15",
+    "normalizr": "^3.4.1",
+    "offline-js": "^0.7.19",
+    "react": "^16.10.2",
+    "react-detect-offline": "^2.4.0",
+    "react-device-detect": "^1.9.10",
+    "react-dom": "^16.10.2",
+    "react-dropdown": "^1.6.4",
+    "react-html5-camera-photo": "^1.4.3",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "3.2.0",
+    "react-toast-notifications": "^1.5.0",
+    "redux": "^4.0.4",
+    "redux-form": "^8.2.6",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "webpack-cli": "^3.3.9"
+  }
+}

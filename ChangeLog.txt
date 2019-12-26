@@ -1,0 +1,78 @@
+v.2.4.11
+-----
+-Added Sales Categories (5 series)
+-Changed HTML5 Camera to use Max Resolution
+-Added Redirects to page components if userName is empty
+-Added additional tags to uploaded file name for debug purposes
+-aV: App Version, os: iOS version, cA: Camera used (E: Embedded, N: Native)
+
+v2.4.10
+------
+-Updated categoryEdit to differentiate between embedded camera photo and camera app photo
+
+v2.4.9
+------
+-Updated camera
+-Bad version control, missing previous changelogs
+
+v2.4.6
+------
+-Updated categoryListFile_install
+
+v2.4.5
+------
+-Added html5 camera package
+-Added embedded camera to CategoryEdit page
+-Added Camera Permissions text for users who deny camera access to app
+-Fixed iPhone issue where last category was inaccessible
+
+v2.4.3
+------
+-Added Sales SV profile
+
+v2.4.2
+------
+-Fixed validation bugs on forms
+
+v0.4.0 (Session update)
+------
+-Reworked routing
+-Added login screen, joblist
+-Added 10 'sessions' (able to create 10 jobs)
+-Added 'uploadStatus' icons to categoryList categories
+-Added network detection for offline->online uploadAllPhotos functionality
+-Added colors to jobList to determine whether a job has all photos uploaded or not
+
+
+0.3.0
+------
+-Added 'Upload All' button on categoryList page
+-Replaced generic Camera icon on categories w/ functional uploadStatus icons
+-Added category colors based on supercategories
+-CategoryList page remembers window position now
+-Fixed bug where thumbnails would appear in the wrong category
+
+v0.2.0
+------
+-Added ServiceWorker functionality
+-Fixed thumbnail bug (modal would remain until image uploaded.  Modal disappears immediately after click now)
+
+v0.1.2
+------
+-Revised categorylistFile_pcsv
+
+v0.1.1
+------
+-Removed '-a' from install categories
+-Changed Form labels from 'User Name' to 'User Initials'
+-Added validation on User Initials: Cannot be longer than 3 character
+-Changed Form labels from 'Project Name' to 'Project Name (try to use one word, all use same)'
+
+-Renamed profile 'Solar' to 'Install'
+-Added profile 'PCSV'
+-Added PCSV categories
+
+v0.1.0
+------
+Beginning of version style
+Alpha for users
