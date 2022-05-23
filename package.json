@@ -8,7 +8,7 @@
     "axios": "^0.19.0",
     "axios-retry": "^3.1.2",
     "colormap": "^2.3.1",
-    "dexie": "^2.0.4",
+    "dexie": "^3.2.2",
     "dexie-observable": "^1.0.0-beta.5",
     "gh-pages": "^2.1.1",
     "local-storage": "^1.4.2",
